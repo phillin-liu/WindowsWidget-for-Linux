@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Widget Panel
+Name[zh_CN]=winodows小组件
+Comment=Windows11 style widgets panel for Linux
+Comment[zh_CN]=Linux版 Windows小组件
+Exec=widget-panel
+Icon=widget-panel
+Terminal=false
+Categories=Utility;Network;
+StartupNotify=false
