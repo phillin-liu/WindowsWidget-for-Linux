@@ -32,12 +32,10 @@
 
 ### 方式一：deb 包（Debian/Ubuntu/Mint）
 
-适用于 Debian 系发行版，需 root 权限。
-
-```bash
-./build_deb.sh
+1. 下载最新版本deb包
+2. 输入指令
+```
 sudo dpkg -i widget-panel_1.0.0_all.deb
-sudo apt-get install -f
 ```
 
 安装后通过命令 `widget-panel` 或应用菜单中的"小组件"启动。
@@ -47,7 +45,7 @@ sudo apt-get install -f
 自动识别发行版并安装系统依赖，支持 Debian/Ubuntu、Fedora/RHEL、Arch/Manjaro、openSUSE。
 
 ```bash
-sudo ./otherlinux-install.sh
+sudo ./install.sh
 ```
 
 安装完成后：
